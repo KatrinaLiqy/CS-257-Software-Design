@@ -1,5 +1,8 @@
 NAME
-	-books title-by-keyword -- List all books which titles contain an input keyword (case-insensitive).
+	-books title-by-keyword -- List all books which titles contain an input keyword 		(case-insensitive).
+
+SYNOPSIS
+	python3 books.py -books title-by-keyword keyword
 
 DESCRIPTION
 	List all books which titles contain an input string (case-insensitive).
@@ -9,17 +12,23 @@ DESCRIPTION
 
 
 NAME
-	-books author-by-keyword -- List all authors whose names contain an input keyword (case-insensitive). List all the books by each of the authors.
+	-books author-by-keyword -- List all authors whose names contain an input keyword 		(case-insensitive). List all the books by each of the authors.
+
+SYNOPSIS
+	python3 books.py -books author-by-keyword keyword
 
 DESCRIPTION
- 	List all authors whose names contain a string (case-insensitive). List all the books by each of the authors.
+ 	List all authors whose names contain a string (case-insensitive). List all the 		books by each of the authors.
 
 	-books author-by-keyword <String author keyword>
-		List all authors whose names contain an input keyword (case-insensitive). List all the books by each of the authors.
+		List all authors whose names contain an input keyword (case-insensitive). 		List all the books by each of the authors.
 
 
 NAME
-	-books book-by-year -- list all the books published within the starting year and ending year, inclusive.
+	-books book-by-year -- list all the books published within the starting year and 		ending year, inclusive.
+
+SYNOPSIS
+	python3 books.py -books book-by-year start_year end_year
 
 DESCRIPTION
  	List all the books published within the starting year and ending year, inclusive.
@@ -30,7 +39,6 @@ DESCRIPTION
 	-books book-by-year <integer begin year> <integer end year>
 		list all the books published within a range of years, inclusive
 
-NAME
 	-help display this help and exit
 
 AUTHOR
