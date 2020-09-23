@@ -1,0 +1,41 @@
+NAME
+	-books title-by-keyword -- List all books which titles contain an input keyword (case-insensitive).
+
+DESCRIPTION
+	List all books which titles contain an input string (case-insensitive).
+
+	-books title-by-keyword <String title keyword>
+		List all books which titles contain an input keyword (case-insensitive).
+
+
+NAME
+	-books author-by-keyword -- List all authors whose names contain an input keyword (case-insensitive). List all the books by each of the authors.
+
+DESCRIPTION
+ 	List all authors whose names contain a string (case-insensitive). List all the books by each of the authors.
+
+	-books author-by-keyword <String author keyword>
+		List all authors whose names contain an input keyword (case-insensitive). List all the books by each of the authors.
+
+
+NAME
+	-books book-by-year -- list all the books published within the starting year and ending year, inclusive.
+
+DESCRIPTION
+ 	List all the books published within the starting year and ending year, inclusive.
+
+	-books book-by-year <integer year>
+		list all the books published in a certain year
+
+	-books book-by-year <integer begin year> <integer end year>
+		list all the books published within a range of years, inclusive
+
+NAME
+	-help display this help and exit
+
+AUTHOR
+	Written by Claire Schregardus and Katrina Li.
+
+REPORTING BUGS
+	
+COPYRIGHT
