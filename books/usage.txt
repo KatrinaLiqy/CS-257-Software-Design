@@ -1,42 +1,40 @@
 NAME
-	-books title-by-keyword -- List all books which titles contain an input keyword 		(case-insensitive).
+	-books get-title-by-keyword -- List all books which titles contain an input 			keyword (case-insensitive).
 
 SYNOPSIS
-	python3 books.py -books title-by-keyword keyword
+	python3 books.py -books get-title-by-keyword keyword
 
 DESCRIPTION
 	List all books which titles contain an input string (case-insensitive).
 
-	-books title-by-keyword <String title keyword>
+	-books get-title-by-keyword <String title keyword>
 		List all books which titles contain an input keyword (case-insensitive).
 
-
 NAME
-	-books author-by-keyword -- List all authors whose names contain an input keyword 		(case-insensitive). List all the books by each of the authors.
+	-books get-author-by-keyword -- List all authors whose names contain an input 			keyword (case-insensitive). List all the books by each of the authors.
 
 SYNOPSIS
-	python3 books.py -books author-by-keyword keyword
+	python3 books.py -books get-author-by-keyword keyword
 
 DESCRIPTION
  	List all authors whose names contain a string (case-insensitive). List all the 		books by each of the authors.
 
-	-books author-by-keyword <String author keyword>
+	-books get-author-by-keyword <String author keyword>
 		List all authors whose names contain an input keyword (case-insensitive). 		List all the books by each of the authors.
 
-
 NAME
-	-books book-by-year -- list all the books published within the starting year and 		ending year, inclusive.
+	-books get-book-by-year -- list all the books published within the starting year 		and ending year, inclusive.
 
 SYNOPSIS
-	python3 books.py -books book-by-year start_year end_year
+	python3 books.py -books get-book-by-year start_year end_year
 
 DESCRIPTION
- 	List all the books published within the starting year and ending year, inclusive.
+ 	List all the books published within the starting year and ending year, inclusive, 	and the publishing year of each book.
 
-	-books book-by-year <integer year>
+	-books get-book-by-year <integer year>
 		list all the books published in a certain year
 
-	-books book-by-year <integer begin year> <integer end year>
+	-books get-book-by-year <integer begin year> <integer end year>
 		list all the books published within a range of years, inclusive
 
 	-help display this help and exit
