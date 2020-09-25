@@ -1,5 +1,5 @@
 #books.py
-#Authors: Claire Schregardus and Katrina Liqy
+#Authors: Claire Schregardus and Katrina Li
 import csv
 import sys
 
