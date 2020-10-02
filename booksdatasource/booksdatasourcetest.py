@@ -63,6 +63,6 @@ class BooksDataSourceTest(unittest.TestCase):
     def test_author_wrong_search_text(self):
       self.assertEqual(self.my_source.authors(search_text="cat"), [])
       
-    __name__ == '__main__':
+    if __name__ == '__main__':
     unittest.main()
 
