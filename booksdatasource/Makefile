@@ -1,4 +1,4 @@
-# Sample Makefile for the hello world assignment
-run:
-	@echo "==== Testing hello.py ===="
-	python3 hello.py
+# Sample Makefile for the assignment
+test:
+	@echo "==== Testing booksdatasourcetest.py ===="
+	python3 booksdatasourcetest.py
