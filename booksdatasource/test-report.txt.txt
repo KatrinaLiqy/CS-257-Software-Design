@@ -1,0 +1,15 @@
+# By Claire Schregardus and Katrina Li
+
+====Bugs that we found and fixed in our code====
+
+We first changed, in line 11, the name of the source  file and csv file so that BooksDataSourceTest.py can open the correct files for testing.
+
+Then we delete the indentation in line 64 and 65 so that main() is outside of the class. We got this trick in StackOverflow. Otherwise it would only have 0 tests.
+
+In test_book_case_sensitivity, test_book_search_text, test_sort_year, test_start_year, and test_end_year, we changed author_id to an integer.
+
+In test_start_year, we changed the order in which the books were listed so that they are sorted by title.
+
+====Bugs that we found in your implementation====
+
+In test_sort_authors we found out that when booksdatasource.py read the author file in line 52 it does not use int() for death_year like "'birth_year':int(row[3])" in line 54, so row[4] is taken in as a string rather than an integer.
